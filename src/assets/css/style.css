@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+/* Bloque */
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+/* Elementos */
+.box-header, .box-body, .box-footer {
+    padding: 5px;
+}
+
+.box-header {
+    border-bottom: 1px solid #eee;
+}
+
+.box-footer {
+    border-top: 1px solid #eee;
+}
+
+/* Modificadores */
+.box--mt-10 {
+    margin-top: 30px;
+}
+
+.box-body--color-blue p {
+    color: blue;
+    font-size: 20px;
+}
+
+.box-footer--brown {
+    color: brown;
+}
+
+/* BEM - Block - Elements - Modifiers */
